@@ -17,11 +17,6 @@ function decrease() {
   decreaseElement.textContent = count;
 }
 
-//function that says what aadesh really is
-function aadeshVal() {
-  document.getElementById("aadesh").textContent = "GAY!";
-}
-
 //code to welcome the user
 let welcomeEl = document.getElementById("welcome-el");
 let name1 = "Seer";
@@ -48,57 +43,10 @@ function save() {
   peopleCounter.textContent = count;
   console.log(count);
 }
-// let num = 5;
 
-// function logFunction() {
-//   console.log(num);
-// }
 
-// logFunction();
 
-//initializing laptimes
-// let lap1 = 160;
-// let lap2 = 157;
-// let lap3 = 155;
-// function to log total lap time
-// function lapTimeTotal() {
-//   let totalTime = lap1 + lap2 + lap3;
-//   console.log("The total lap time is", totalTime);
-// }
 
-// lapTimeTotal();
 
-let lapsCompleted = 0;
 
-function incLapFunc() {
-  lapsCompleted = lapsCompleted + 1;
-  console.log(lapsCompleted);
-}
-incLapFunc();
-incLapFunc();
-incLapFunc();
-// let count = 10/2;
-// console.log("The count is",count);
 
-//Challenge 1
-// let myAge = 21; //creating and setting up variable
-// console.log(myAge); //printing value in browser
-
-//Challenge 2
-// let myAge = 21;
-// let humanDogRatio = 2;
-
-// let myDogAge = myAge * humanDogRatio;
-// console.log("My dog's age is", myDogAge);
-
-//Challenge 3
-// let bonusPoints = 50;
-
-// bonusPoints = bonusPoints + 50;
-// console.log("The first bonus points is", bonusPoints);
-
-// bonusPoints = bonusPoints - 75;
-// console.log("The second bonus points is", bonusPoints);
-
-// bonusPoints = bonusPoints + 45;
-// console.log("The final bonus points is", bonusPoints);
